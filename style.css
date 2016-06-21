@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	height: 100%;
+	background-color: silver;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	text-decoration: underline;
+	color: orange;
+	text-shadow:3px 3px 3px yellow;
+}
+
+.filter {
+	background-color: white;
+	text-align: left;
+}
+
+ul {
+	margin: 0;
+	padding: 20px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+[type = 'button'], .counter {
+	color: grey;
+	border: none;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+[type = 'button']:hover {
+	cursor: pointer;
+	border: 1px solid silver;	
+}
+
+.write {
+	width: 500px;
+	height: 50px;
+	font-size: 1.5em;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.appear {
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.todo {
+	background-color: white;
+	border-bottom: 1px solid silver;
+	margin: 0;
+	padding: 20px;
+	position: relative;
+}
+
+.done {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.checked {
+	text-decoration: line-through;
+	color: silver;
+}
+
+form>p {
+	position: relative;
+	margin: 0;
+}
+
+.fa-chevron-down {
+	position: absolute;
+	top:40%;
+	left: 10px;
+	color: silver;
+}
+
+.fa-times {	
+	visibility: hidden;
+}
+
+.fa-times-visible {
+	color: red;
+	position: absolute;
+	right: 30px;
+	visibility: visible;
+}
